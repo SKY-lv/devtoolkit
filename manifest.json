@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "DevToolkit - 开发者工具箱",
+  "version": "1.0.0",
+  "description": "JSON格式化、时间戳转换、加密解密、颜色转换等开发者常用工具合集",
+  "permissions": ["activeTab", "storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
